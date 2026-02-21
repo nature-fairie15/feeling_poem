@@ -8,20 +8,23 @@
       body{
         background: radial-gradient(circle,rgba(174, 181, 184, 1) 0%, rgba(119, 151, 191, 1) 60%)
       }
-      .lover_silouette{
+      .lover_silouette {
         display: block;
         margin: auto 30% auto;
         width: 90%;
         padding-top: 900px;
-        padding-bottom: 900px
+        padding-bottom: 900px;
+        transition: opacity 1.5s ease;
       }
       .lover_silouette:hover{
-        rotate: 45deg;
+        opacity: 0%
       }
     </style>
   </head>
   <body>
-    <img src="portrait-of-young-woman-reaching-out-hand-in-autumnal-park-M5J328-1301856495.png" alt="sillouette of a woman with her hand out" class="lover_silouette">
+    <div class="lover_silouette">
+      <img src="portrait-of-young-woman-reaching-out-hand-in-autumnal-park-M5J328-1301856495.png" alt="sillouette of a woman with her hand out" >
+    </div>
   </body>
   
 </html>
