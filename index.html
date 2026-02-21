@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en-us">
 
   <head>
@@ -8,16 +9,18 @@
       body{
         background: radial-gradient(circle,rgba(174, 181, 184, 1) 0%, rgba(119, 151, 191, 1) 60%)
       }
-      .lover_silouette {
+      .lover_silouette img{
         display: block;
         margin: auto 30% auto;
-        width: 90%;
+        width: 100%;
         padding-top: 900px;
-        padding-bottom: 900px;
-        transition: opacity 1.5s ease;
+        padding-bottom: 450px;
+        transition: opacity 1.5s ease, width 1.5s ease;
       }
-      .lover_silouette:hover{
-        opacity: 0%
+      .lover_silouette:hover img{
+        transition-delay: 1s;
+        opacity: 0%;
+        width: 0.5%;
       }
     </style>
   </head>
