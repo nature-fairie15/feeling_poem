@@ -9,12 +9,21 @@
       body{
         background: radial-gradient(circle,rgba(174, 181, 184, 1) 0%, rgba(119, 151, 191, 1) 60%)
       }
+      @keyframes opacity{
+        0% {opacity: 100%;}
+        9% {opacity: 50%;}
+        71% {opacity: 55%;}
+        87% {opacity: 35%;}
+        100% {opacity: 0%;}
+      }
       .lover_silouette img{
         display: block;
         margin: auto 30% auto;
         width: 100%;
         padding-top: 900px;
         padding-bottom: 450px;
+        animation-name: opacity;
+        animation-duration: 10s;
         transition: opacity 1.5s ease, width 1.5s ease;
       }
       .family_silouette img{
@@ -50,6 +59,7 @@
         transition: opacity 1.5s ease, width 1.5s ease;
       }
       .lover_silouette:hover img{
+        animation-play-state: paused;
         transition-delay: 1s;
         opacity: 0%;
         width: 0.5%;
