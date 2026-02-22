@@ -10,6 +10,10 @@
       body{
         background: radial-gradient(circle,rgba(174, 181, 184, 1) 0%, rgba(119, 151, 191, 1) 60%)
       }
+      @keyframes disapear{
+        0% {opacity: 0;}
+        100% { opacity: 0;}
+      }
       @keyframes opacity{
         0% {opacity: 100%;}
         9% {opacity: 50%;}
@@ -23,6 +27,56 @@
         87% {opacity: 35%;}
         99% {opacity: 99%;}
         100% {opacity: 0%;}
+      }
+      .lover_silouette{
+        animation-name: disapear;
+        animation-delay: 15s;
+        animation-duration: 300s;
+      }
+      .family_silouette{
+        animation-name: disapear;
+        animation-delay: 30s;
+        animation-duration: 300s;
+      }
+      .money_silouette{
+        animation-name: disapear;
+        animation-delay: 45s;
+        animation-duration: 300s;
+      }
+      .power_silouette{
+        animation-name: disapear;
+        animation-delay: 60s;
+        animation-duration: 300s;
+      }
+      .home_silouette{
+        animation-name: disapear;
+        animation-delay: 75s;
+        animation-duration: 300s;
+      }
+      .travel_silouette{
+        animation-name: disapear;
+        animation-delay: 90s;
+        animation-duration: 300s;
+      }
+      .war_silouette{
+        animation-name: disapear;
+        animation-delay: 105s;
+        animation-duration: 300s;
+      }
+      .fame_silouette{
+        animation-name: disapear;
+        animation-delay: 120s;
+        animation-duration: 300s;
+      }
+      .winning_silouette{
+        animation-name: disapear;
+        animation-delay: 135s;
+        animation-duration: 300s;
+      }
+      .balance_silouette{
+        animation-name: disapear;
+        animation-delay: 150s;
+        animation-duration: 300s;
       }
       .lover_silouette img{
         display: block;
@@ -101,6 +155,40 @@
         animation-iteration-count: infinite;
         transition: opacity 1.5s ease, width 1.5s ease;
       }
+      .fame_silouette img{
+        display: block;
+        margin: auto;
+        width: 65%;
+        padding-top: 450px;
+        padding-bottom: 450px;
+        animation-name: opacity;
+        animation-duration: 02s;
+        animation-iteration-count: infinite;
+        transition: opacity 1.5s ease, width 1.5s ease;
+      }
+      .winning_silouette img{
+        display: block;
+        margin: auto;
+        width: 65%;
+        padding-top: 450px;
+        padding-bottom: 450px;
+        animation-name: opacity;
+        animation-duration: 02s;
+        animation-iteration-count: infinite;
+        transition: opacity 1.5s ease, width 1.5s ease;
+      }
+      .balance_silouette img{
+        display: block;
+        margin: auto;
+        width: 65%;
+        padding-top: 450px;
+        padding-bottom: 450px;
+        animation-name: opacity;
+        animation-duration: 02s;
+        animation-iteration-count: infinite;
+        transition: opacity 1.5s ease, width 1.5s ease;
+      }
+      
       .lover_silouette:hover img{
         animation-play-state: paused;
         transition-delay: 0.1s;
@@ -143,9 +231,29 @@
         opacity: 0%;
         width: 0.1%;
       }
+      .fame_silouette:hover img{
+        animation-play-state: paused;
+        transition-delay: 0.1s;
+        opacity: 0%;
+        width: 0.1%;
+      }
+      .winning_silouette:hover img{
+        animation-play-state: paused;
+        transition-delay: 0.1s;
+        opacity: 0%;
+        width: 0.1%;
+      }
+      .balance_silouette:hover img{
+        animation-play-state: paused;
+        transition-delay: 0.1s;
+        opacity: 0%;
+        width: 0.1%;
+      }
       
     </style>
+    
   </head>
+  
   <body>
     
     <audio controls autoplay>
@@ -178,6 +286,18 @@
     
     <div class="war_silouette">
       <img src="crossed-axes-icon-md-686575361.png" alt="silouette of two axes crossed">
+    </div>
+    
+    <div class="fame_silouette">
+      <img src="oscar-award-silhouette-png-mbo-75n9thev1b8rrq2o-644612668.png" alt="silouette of an oscar">
+    </div>
+    
+    <div class="winning_silouette">
+      <img src="trophy-silhouette-vector-6h3hy71f4tra3z35-1871953138.png" alt="silouette of a trophy">
+    </div>
+    
+    <div class="balance_silouette">
+      <img src="Balance-Silhouette-Transparent-File-1542021848.png" alt="silouette of a scale">
     </div>
     
   </body>
